@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="author" content="labartisan">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Meta tags for Social Media(Better SEO) -->
+    <!-- <meta property="og:title" content=""> -->
+    <!-- <meta property="og:type" content=""> -->
+    <!-- <meta property="og:url" content=""> -->
+    <!-- <meta property="og:image" content=""> -->
+
+    <!-- site favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- ====== All css file ========= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- site title -->
+    <title>Anftiox</title>
+</head>
+
+<body>
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+    <!-- ===============// header section start here \\================= -->
+    <header class="header style-2">
+        <div class="container-fluid">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <form action="#" class="header__search">
+                    <input type="text" placeholder="Search items, collections, and creators">
+                    <button type="button"><i class="icofont-search-2"></i></button>
+                    <button type="button" class="close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
+                        </svg></button>
+                </form>
+                <div class="header__menu ms-auto">
+                    <ul class="header__nav mb-0">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link active home-2" href="index.html" role="button"
+                                aria-expanded="false" aria-haspopup="true" data-bs-offset="0,10">Home</a>
+
+                            <ul class="dropdown-menu header__nav-menu">
+                                <li><a class="drop-down-item active home-2" href="index.html">Home</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" data-bs-offset="0,10">Explore</a>
+
+                            <ul class="dropdown-menu header__nav-menu">
+                                <li><a class="drop-down-item" href="explore.html">Explore all VNFTs</a></li>
+                                <li><a class="drop-down-item" href="auction.html">Current auction Page</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="activity.html" class="header__nav-link">Activity</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" data-bs-offset="0,10">News</a>
+
+                            <ul class="dropdown-menu header__nav-menu">
+                                <li><a class="drop-down-item" href="blog-3.html">BlackVeMarket news</a></li>
+                                <li><a class="drop-down-item" href="VethugNews.html">VeThugs news</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" data-bs-offset="0,10">Creators</a>
+
+                            <ul class="dropdown-menu header__nav-menu" data-popper-placement="top-start">
+                                <li><a class="drop-down-item" href="author.html">My Profile</a></li>
+                                <li><a class="drop-down-item" href="all-authors.html">ALL Creators</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="header__actions">
+                    <div class="header__action header__action--search">
+                        <button class="header__action-btn" type="button"><i class="icofont-search-1"></i></button>
+                    </div>
+
+                    <div class="header__action header__action--profile">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" data-bs-offset="-100,10">
+                                <span data-blast="bgColor"><i class="icofont-user"></i></span> <span
+                                    class="d-none d-md-inline">VeThugs
+                                    Main wallet</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><span class="me-1"><i
+                                                class="icofont-options"></i></span>
+                                        Setting</a></li>
+                                <li><a class="dropdown-item" href="activity.html"><span class="me-1"><i
+                                                class="icofont-lightning-ray"></i></span>
+                                        Activity</a></li>
+                                <li><a class="dropdown-item" href="signup.html"><span class="me-1"><i
+                                                class="icofont-space-shuttle"></i></span>
+                                        Sign
+                                        Up</a></li>
+                                <li><a class="dropdown-item" href="signin.html"><span class="me-1"><i
+                                                class="icofont-login"></i></span> Sign
+                                        In</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="dropdown-item" href="#"> Sign
+                                        Out <span class="ms-1"><i class="icofont-logout"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wallet-btn">
+                        <a href="wallet.html"><span><i class="icofont-wallet" data-blast="color"></i></span> <span
+                                class="d-none d-md-inline">1.000.000.000 VET</span> </a>
+                    </div>
+
+                </div>
+
+                <button class="menu-trigger header__btn" id="menu05">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ===============//header section end here \\================= -->
+
+
+
+    <!-- ==========Page Header Section Start Here========== -->
+    <section class="page-header-section style-1">
+        <div class="container">
+            <div class="page-header-content">
+                <div class="page-header-inner">
+                    <div class="page-title">
+                        <h2> All of our VNFT Creators</h2>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">All-Creators</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Page Header Section Ends Here========== -->
+
+
+    <!-- ==========explore Section start Here========== -->
+    <section class="explore-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header justify-content-between">
+                <div class="header-title">
+                    <span><i class="icofont-light-bulb"></i></span>
+                    <h3>All VNFT Creators</h3>
+                </div>
+                <div class="nft-search">
+                    <div class="form-floating nft-search-input">
+                        <input type="text" class="form-control" id="nftSearch" placeholder="Search Author">
+                        <label for="nftSearch">Search Creators</label>
+                        <button type="button"> <i class="icofont-search-1"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper">
+                <div class="explore-wrapper">
+                    <div class="row justify-content-center gx-4 gy-3">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/01.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/04.png" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">Gihan Fernindo</a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/02.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/04.gif" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">X31le eko Fernindo</a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/03.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/03.png" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">Jhon Doe </a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/04.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/07.gif" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">Alex joe</a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/06.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/02.png" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">Imao XO9 </a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/04.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/06.png" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">Gihan Fernindo</a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/01.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/04.gif" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">5eo Le1 </a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="nft-item style-2">
+                                <div class="nft-inner">
+                                    <div class="nft-thumb">
+                                        <img loading="lazy" src="assets/images/nft-item/style-2/07.jpg" alt="nft-img">
+                                    </div>
+                                    <div class="nft-content">
+                                        <div class="author-thumb">
+                                            <a href="author.html" class="veryfied"><img loading="lazy"
+                                                    src="assets/images/seller/07.png" alt="author-img"></a>
+                                        </div>
+                                        <div class="author-details">
+                                            <h5><a href="author.html">Gihan Fernindo</a> </h5>
+                                            <p class="nft-price yellow-color">$23,002.98</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="load-btn mt-5">
+                        <a href="all-authors-2.html" class="default-btn move-bottom">
+                            <span>Load More</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========explore Section ends Here========== -->
+
+    <!-- ===============//footer section start here \\================= -->
+    <footer class="footer-section style-2">
+        <div class="footer-top" style="background-image: url(assets/images/footer/bg-2.jpg);">
+            <div class="footer-newsletter">
+                <div class="container">
+                    <div class="row g-4 align-items-center justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="newsletter-part">
+                                <div class="ft-header">
+                                    <h4>Get The Latest BlackVeMarket Updates</h4>
+                                </div>
+                                <form action="mailto:subscribe@BlackVeMarket.com">
+                                    <input type="email" placeholder="Your Mail Address">
+                                    <button type="submit" data-blast="bgColor"> Subscribe now</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="social-part ps-lg-5">
+                                <div class="ft-header">
+                                    <h4>Join the Community</h4>
+                                </div>
+                                <ul class="social-list d-flex flex-wrap align-items-center mb-0">
+                                    <li class="social-link"><a href="https://twitter.com/VeThugs"
+                                            data-blast="bgColor"><i class="icofont-twitter"></i></a></li>
+                                    <li class="social-link"><a href="https://discord.gg/V9TMVR8x"
+                                            data-blast="bgColor"><i class="icofont-user"></i></a></li>
+                                    <li class="social-link"><a href="https://www.instagram.com/vethugsofficial/"
+                                            data-blast="bgColor"><i class="icofont-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="text-center py-4 mb-0">All rights reserved &copy; BlackVeMarket || Design By:
+                            Larkin300
+                        </p>
+                    </div>
+                </div>
+    </footer>
+    <!-- ===============//footer section end here \\================= -->
+
+
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-stylish-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+
+
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
